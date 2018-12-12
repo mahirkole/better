@@ -1,7 +1,7 @@
 package com.mahirkole.better;
 
-import java.sql.Time;
 import java.util.Date;
+import java.util.Map;
 
 public class Event {
 
@@ -12,4 +12,5 @@ public class Event {
     private Short mbs;
     private Team home;
     private Team away;
+    private Map<OddType, Odd> odds;
 }

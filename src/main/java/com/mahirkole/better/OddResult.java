@@ -1,6 +1,6 @@
 package com.mahirkole.better;
 
-public enum BetResult {
+public enum OddResult {
     HOME, DRAW, AWAY, UNDER15, OVER15,
     UNDER, OVER, UNDER35, OVER35, HOME_OR_DRAW,
     HOME_OR_AWAY, AWAY_OR_DRAW, ODD, EVEN, ZERO_ONE,
